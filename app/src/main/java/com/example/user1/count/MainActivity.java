@@ -1,4 +1,8 @@
-package com.example.user1.count;mail
+package com.example.user1.count;
+
+import android.os.Bundle;
+
+mail
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -17,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textView = (TextView)findViewById(R.id.textView;
+        textView = (TextView)findViewById(R.id.textView);
 
     }
     public void pluss(View v) {
